@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    {{! http://blog.csdn.net/a727911438/article/details/54290931 }}
+    <div id="localStorageSet">localStorageSet</div>
+    <div id="localStorageGet">localStorageGet</div>
+    <div id="localStorageRemove">localStorageRemove</div>
+    <div id="localStorageClear">localStorageClear</div>
+    <div id="sessionStorageSet">sessionStorageSet</div>
+    <div id="sessionStorageGet">sessionStorageGet</div>
+    <div id="sessionStorageRemove">sessionStorageRemove</div>
+    <div id="sessionStorageClear">sessionStorageClear</div>
+    <div id="cookieSet">cookieSet</div>
+    <div id="cookieGet">cookieGet</div>
+    <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+    <script src="/javascripts/docCookies.js"></script>
+    <script src="/javascripts/cookie.js"></script>
+  </body>
+</html>
